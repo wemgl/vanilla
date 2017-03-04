@@ -1,0 +1,14 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#js-container {
+    width: 100%;
+    height: 300px;
+    min-height: 300px;
+}
+
+.post__thumbnail {
+    float: left;
+    margin-right: 15px;
+}
