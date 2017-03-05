@@ -8,7 +8,35 @@ html, body {
     min-height: 300px;
 }
 
+.post {
+    height: 100%;
+    overflow: auto;
+    min-height: 100%;
+    margin: 30px auto;
+}
+
 .post__thumbnail {
     float: left;
     margin-right: 15px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    height: 30px;
+}
+
+.nav__item {
+    display: inline;
+}
+
+.u-center {
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.subreddit-title {
+    width: 100px;
 }
