@@ -1,7 +1,7 @@
 /**
  * Created by wembleyleach on 3/4/17.
  */
-;var ready = function (fn) {
+var ready = function (fn) {
     if (document.readyState != 'loading') {
         fn();
     }  else {
